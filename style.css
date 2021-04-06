@@ -25,7 +25,7 @@ body {
 
 /*  header */
 header {
-  background: url(../IMG/banner_bg.jpg) fixed;
+  background: url(/IMG/banner_bg.jpg) fixed;
   background-size: cover;
   height: 90vh;
 }
