@@ -7,7 +7,7 @@
   src: url("/Fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
-  font-family: "Open";
+  font-family: "OpenS";
   src: url("/Fonts/Open_Sans/OpenSans-Bold.ttf");
 }
 body {
@@ -31,7 +31,7 @@ header {
 }
 
 #hLogo, .logoT {
-  font-family: "Open";
+  font-family: "OpenS";
 }
 
 .navbar-nav li a:hover {
