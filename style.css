@@ -1,0 +1,83 @@
+:root {
+  --jaune: rgb(255, 195, 83);
+}
+
+@font-face {
+  font-family: "Robo";
+  src: url("/Fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Open";
+  src: url("/Fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+body {
+  font-family: "Robo";
+  color: white !important;
+}
+
+.linksOur, .liOur, .linksCards, #linkHeader, .navbar-nav li a {
+  transition: all 0.2s ease-in-out;
+}
+
+.linksOur:hover, .liOur:hover, .linksCards:hover, #linkHeader:hover {
+  transform: scale(1.1);
+}
+
+/*  header */
+header {
+  background: url(../IMG/banner_bg.jpg) fixed;
+  background-size: cover;
+  height: 90vh;
+}
+
+#hLogo, .logoT {
+  font-family: "Open";
+}
+
+.navbar-nav li a:hover {
+  color: grey !important;
+}
+
+#linkHeader:hover {
+  background-color: var(--jaune) !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+/* main */
+/* cards */
+#Cards {
+  background: url(/IMG/about-bg.jpg) fixed;
+  background-size: cover;
+}
+
+.logosCards {
+  background-color: var(--jaune);
+  border: 4px solid white;
+  width: 10rem;
+}
+
+.linksCards:hover {
+  background-color: var(--jaune) !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+/* our gallery */
+#hrOur {
+  border: 2px solid rgba(255, 255, 255, 0.411);
+}
+
+.liOur {
+  list-style: none;
+}
+.liOur:hover {
+  text-decoration: none;
+}
+
+.linksOur:hover {
+  color: #b0b0b0 !important;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
