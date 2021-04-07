@@ -2,6 +2,9 @@
     --jaune: rgb(255, 195, 83);
 }
 
+$medium-up: "only screen and (min-width: 768px)";
+$xl-up: "only screen and (min-width: 1200px)";
+
 
 @font-face {
     font-family: "Robo";
@@ -26,7 +29,11 @@ body{
     transform: scale(1.1);
 }
 
-/*  header */
+%hr{
+    border: 2px solid rgba(255, 255, 255, 0.411);
+}
+
+/*  header  */
 header{
     background: url(IMG/banner_bg.jpg) fixed;
     background-size: cover;
@@ -84,7 +91,7 @@ header{
 /* our gallery */
 
 #hrOur{
-   border: 2px solid rgba(255, 255, 255, 0.411);
+   @extend %hr;
 }
 
 .liOur{
@@ -131,4 +138,25 @@ header{
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+}
+
+  /*Blog Posts*/
+
+#blogCont{
+    background: url(IMG/blog-bg.jpg) fixed;
+    background-size: cover;
+    height: 75vh;
+}
+// @media $xl-up{
+//     #blogCont{
+//         height: vh;
+//     }
+// }
+
+#hrBlog{
+    @extend %hr;
+}
+
+#blogMenu{
+    background-color: rgba(0, 0, 0, 0.527);
 }
