@@ -115,6 +115,9 @@ header {
   background-color: rgba(0, 0, 0, 0.527);
 }
 
+#btnBlog1, #btnBlog2, #btnBlog3, #btnBlog4 {
+  color: black;
+}
 #btnBlog1:hover, #btnBlog2:hover, #btnBlog3:hover, #btnBlog4:hover {
   cursor: pointer;
   color: crimson !important;

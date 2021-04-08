@@ -162,6 +162,7 @@ header{
 }
 
 #btnBlog1, #btnBlog2, #btnBlog3, #btnBlog4{
+    color: black;
     &:hover{
         cursor: pointer;
         color: crimson !important;
