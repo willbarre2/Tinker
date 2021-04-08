@@ -115,4 +115,17 @@ header {
   background-color: rgba(0, 0, 0, 0.527);
 }
 
+#btnBlog1:hover, #btnBlog2:hover, #btnBlog3:hover, #btnBlog4:hover {
+  cursor: pointer;
+  color: crimson !important;
+}
+
+#blogCards1, #blogCards2, #blogCards3, #blogCards4 {
+  display: none;
+}
+
+.openBlogCard {
+  display: block !important;
+}
+
 /*# sourceMappingURL=style.css.map */
