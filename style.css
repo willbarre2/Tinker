@@ -106,9 +106,8 @@ header {
 
 /*Blog Posts*/
 #blogCont {
-  background: url(IMG/blog-bg.jpg) fixed;
+  background: url(IMG/blog-bg.jpg) repeat fixed;
   background-size: cover;
-  height: 75vh;
 }
 
 #blogMenu {
