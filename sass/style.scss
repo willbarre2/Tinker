@@ -3,6 +3,7 @@
 }
 
 $medium-up: "(min-width: 768px)";
+$large-up: "(min-width: 992px)";
 $xl-up: "(min-width: 1200px)";
 
 
@@ -30,7 +31,7 @@ body{
 }
 
 %hr{
-    border: 2px solid rgba(255, 255, 255, 0.411);
+    border: 1px solid rgba(255, 255, 255, 0.411);
 }
 
 /*  header  */
@@ -169,4 +170,43 @@ header{
 
 .openBlogCard{
     display: block !important;
+}
+
+// footer
+
+#hrFooter{
+    @extend%hr;
+    width: 50px;
+    transform: rotate(90deg) ;
+    -webkit-transform: rotate(90deg) ;
+    -moz-transform: rotate(90deg) ;
+    -ms-transform: rotate(90deg) ;
+    -o-transform: rotate(90deg) ;
+    ;
+}
+
+.logosFooter{
+    width: 12vw;
+}
+
+@media #{$medium-up}{
+    .logosFooter{
+        width: 6vw;
+    }
+}
+
+@media #{$large-up}{
+    #hrFooter{
+        width: 300px;
+    }
+    .logosFooter{
+        width: 3vw;
+    }
+}
+
+
+@media #{$xl-up}{
+    #hrFooter{
+        width: 200px;
+    }
 }

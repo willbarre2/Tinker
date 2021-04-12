@@ -23,8 +23,8 @@ body {
   transform: scale(1.1);
 }
 
-#hrBlog, #hrOur {
-  border: 2px solid rgba(255, 255, 255, 0.411);
+#hrFooter, #hrBlog, #hrOur {
+  border: 1px solid rgba(255, 255, 255, 0.411);
 }
 
 /*  header  */
@@ -128,6 +128,39 @@ header {
 
 .openBlogCard {
   display: block !important;
+}
+
+#hrFooter {
+  width: 50px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.logosFooter {
+  width: 12vw;
+}
+
+@media (min-width: 768px) {
+  .logosFooter {
+    width: 6vw;
+  }
+}
+@media (min-width: 992px) {
+  #hrFooter {
+    width: 300px;
+  }
+
+  .logosFooter {
+    width: 3vw;
+  }
+}
+@media (min-width: 1200px) {
+  #hrFooter {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
