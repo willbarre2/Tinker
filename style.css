@@ -13,6 +13,7 @@
 body {
   font-family: "Robo";
   color: white !important;
+  font-size: 0.7rem;
 }
 
 .linksOur, .liOur, .linksCards, #linkHeader, .navbar-nav li a {
@@ -146,6 +147,10 @@ header {
 @media (min-width: 768px) {
   .logosFooter {
     width: 6vw;
+  }
+
+  body {
+    font-size: 1rem;
   }
 }
 @media (min-width: 992px) {

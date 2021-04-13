@@ -20,6 +20,7 @@ $xl-up: "(min-width: 1200px)";
 body{
     font-family: "Robo";
     color: white !important;
+    font-size: 0.7rem;
 }
 
 %trans1{
@@ -193,6 +194,9 @@ header{
     .logosFooter{
         width: 6vw;
     }
+    body{
+        font-size: 1rem;
+    }
 }
 
 @media #{$large-up}{
@@ -201,7 +205,7 @@ header{
     }
     .logosFooter{
         width: 3vw;
-    }
+    }  
 }
 
 
